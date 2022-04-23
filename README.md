@@ -53,7 +53,7 @@ Introduction to the alerts:
 
     ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-    3. func showCompleteFormOfAlert(parent: T##UIViewController, title: String, message: String, placeHolders: [String], buttonTitles: [String], style: UIAlertController.Style, showCancelButton: Bool, completion: (Int?) -> (), textCompletion: ([String]) -> ()):
+    3. func showCompleteFormOfAlert(parent: UIViewController, title: String, message: String, placeHolders: [String], buttonTitles: [String], style: UIAlertController.Style, showCancelButton: Bool, completion: (Int?) -> (), textCompletion: ([String]) -> ()):
     
         This is the third use case of AlertManager. This a system alert with some textFields and some buttons and you can you it for getting some information from user like a form for survey. You need to complete function arguments just like the above;
         
